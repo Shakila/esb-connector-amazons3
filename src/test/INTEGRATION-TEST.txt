@@ -9,8 +9,8 @@ Product: Integration tests for WSO2 ESB AmazonS3 connector
     Tested Platforms: 
 
     - Microsoft WINDOWS V-7
-    - Ubuntu 14.04
-    - WSO2 ESB 4.9.0
+    - Ubuntu 14.04, Mac OSx 10.10.3
+    - WSO2 ESB 4.9.0, ESB 5.0.0-SNAPSHOT
 
 Note:
 	This test suite can execute based on two scenarios.
@@ -19,7 +19,7 @@ Note:
 	
 Steps to follow in setting integration test.
 
- 1. Make sure the ESB 4.8.1 zip available at "{AmazonS3_Connector_Home}/repository/"
+ 1.  Download ESB WSO2 ESB 5.0.0-SNAPSHOT from our official site. Extract the ESB and put "-XX:-UseSplitVerifier" under $JVM_MEM_OPTS into {ESB_HOME}/bin/wso2server.sh. Then compress and place the zip file at "{AmazonS3_Connector_Home}/repository/"
 
  2. This ESB should be configured as below;
 	Please make sure that the below mentioned Axis configurations are enabled (repository/conf/axis2/axis2.xml).

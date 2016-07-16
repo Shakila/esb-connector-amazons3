@@ -2,7 +2,7 @@
     "accessKeyId": "%s",
     "secretAccessKey": "%s",
     "methodType": "PUT",
-    "contentType": "application/json; charset=UTF-8",
+    "contentType": "application/json",
     "bucketName": "%s",
     "isXAmzDate": "true",
     "bucketUrl": "%s", 
